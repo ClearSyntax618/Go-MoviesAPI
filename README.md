@@ -2,7 +2,7 @@
 Este es mi primer proyecto utilizando Go y Gorilla Mux. Es una API simple que me sirvió para entender como funciona Go en el Backend.
 Ésta API consta de cinco endpoints. Dos son `GET`, uno es `POST`, uno es `PUT` y el último es `DELETE`. 
 
-| Métodos | URL | Funcion |
+| Métodos | URL | Función |
 | -------- | ------- | --------------- |
 | `GET` | /movies | getMovies |
 | `GET` | /movies/`{id}` | getMovie |
@@ -13,7 +13,7 @@ Este es mi primer proyecto utilizando Go y Gorilla Mux. Es una API simple que me
 Cada endpoint retorna un objeto `JSON`.
 
 ### Estructura de cada película
-**Ejemplo**
+**Sintáxis**
 
 ```go
 // No utilizaremos una base de datos. Si no que utilizaremos structs y slices
